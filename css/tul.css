@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(150deg, #6c3483, #58d68d) ;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #f0f0f0;
+    background: linear-gradient(150deg, #8a51a0, #92e7b6) ;
+    margin: 10px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    border-style: double;
+    border-color: #1b1a1a;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+h1{
+    font-size: 50px;
+    -webkit-text-stroke: 2px black;
+}
+h2 {
+    color: #333;
+}
+p {
+    color: #666;
+}
+/* Estilos específicos del dashboard */
+.header {
+    background: linear-gradient(150deg, #8a51a0, #92e7b6) ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-style:double;
+    border-color: #1b1a1a;
+    border-radius: 12px;
+    
+}
+.sidebar {
+    background: linear-gradient(150deg, #8a51a0, #92e7b6) ;
+    color: #1b1a1a;
+    padding: 20px;
+    width: 200px;
+    border-color: #1b1a1a;
+    border-style: double;
+}
+
